@@ -25,25 +25,25 @@ with open(testdata_file) as file:
 
 class TestCalcu:
 
-    @pytest.mark.dependency(name='add')
+    
     @pytest.mark.parametrize("x, y, result",testdata['add'])
     def test_add(self, creat_cal, x, y, result):
         print(f"{x}+{y}={result}")
         assert creat_cal.add(x, y) == approx(result)
 
-    @pytest.mark.dependency(name='sub')
+   
     @pytest.mark.parametrize("x,y,result", testdata['sub'])
     def test_sub(self, creat_cal, x, y, result):
         print(f"{x}-{y}={result}")
         assert creat_cal.sub(x, y) == approx(result)
 
-    @pytest.mark.dependency(name='mul')
+    
     @pytest.mark.parametrize("x,y,result", testdata['mul'])
     def test_mul(self, creat_cal, x, y, result):
         print(f"{x}*{y}={result}")
         assert creat_cal.mul(x, y) == approx(result)
 
-    @pytest.mark.dependency(name='div')
+    
     @pytest.mark.parametrize("x,y,result", testdata['div'])
     def test_div(self, creat_cal, x, y, result):
         print(f"{x}/{y}={result}")
