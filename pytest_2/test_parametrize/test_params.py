@@ -13,10 +13,7 @@ from pytest import approx
 
 from pytest_2.test_parametrize.calcu import Calculator
 
-# work_path = os.path.abspath(os.path.dirname(__file__))
-# testdata_file = os.path.join(work_path, 'data.yaml')
-# with open("data.yaml") as file:
-#     testdata = yaml.safe_load(file)
+
 
 @pytest.fixture(autouse="true")
 def creat_cal():
