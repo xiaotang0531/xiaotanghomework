@@ -16,7 +16,6 @@ from pytest import approx
 import yaml
 import os
 
-from cacu import Calculator
 
 work_path = os.path.abspath(os.path.dirname(__file__))
 testdata_file = os.path.join(work_path, 'data.yaml')

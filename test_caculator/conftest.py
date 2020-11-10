@@ -6,7 +6,7 @@
 # IDE: PyCharm
 import pytest
 
-from cacu import Calculator
+from test_caculator.cacu import Calculator
 
 
 @pytest.fixture(autouse="true")
