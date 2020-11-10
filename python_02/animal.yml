@@ -1,0 +1,13 @@
+cat:
+  name: 'Jerry'
+  colour: 'black'
+  age: 5
+  gender: 'male'
+  hair: 'Short hair'
+
+dog:
+  name: 'Tom'
+  colour: 'yellow'
+  age: 3
+  gender: 'female'
+  hair: 'Long hair'
