@@ -1,0 +1,5 @@
+"Status","Name","Duration in ms","Description"
+"passed","test_allure_feature#test_sub","0",""
+"passed","test_allure_feature#test_add","0",""
+"passed","test_allure_feature#test_login","0",""
+"failed","test_allure_feature#test_login1","0",""

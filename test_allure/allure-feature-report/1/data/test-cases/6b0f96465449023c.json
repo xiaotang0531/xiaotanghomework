@@ -1,0 +1,68 @@
+{
+  "uid" : "6b0f96465449023c",
+  "name" : "test_login",
+  "fullName" : "test_allure_feature#test_login",
+  "historyId" : "889b0d8c39fbc2d2eb7de769d6eda4e9",
+  "time" : {
+    "start" : 1607513920770,
+    "stop" : 1607513920770,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8cc02dd0ede4b322",
+      "name" : "stdout",
+      "source" : "8cc02dd0ede4b322.txt",
+      "type" : "text/plain",
+      "size" : 19
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure_feature"
+  }, {
+    "name" : "host",
+    "value" : "tangzhihua"
+  }, {
+    "name" : "thread",
+    "value" : "1552-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_allure_feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6b0f96465449023c.json",
+  "parameterValues" : [ ]
+}
